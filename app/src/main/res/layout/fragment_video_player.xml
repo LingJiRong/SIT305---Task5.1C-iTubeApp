@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/input_link"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter YouTube link"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Video" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save to Playlist" />
+
+    <Button
+        android:id="@+id/btn_playlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Playlist"
+        android:layout_marginTop="8dp" />
+
+
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+</LinearLayout>
